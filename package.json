@@ -1,0 +1,29 @@
+{
+    "name": "hiiq-media",
+    "version": "1.0.0",
+    "description": "HIIQ Business Solutions Remotion Video Assets",
+    "scripts": {
+        "start": "npx remotion preview src/index.ts",
+        "build": "npx remotion render src/index.ts HiiqHeroLoop out/hero-loop.mp4",
+        "upgrade": "npx remotion upgrade",
+        "test": "eslint src --ext ts,tsx,js,jsx"
+    },
+    "dependencies": {
+        "@react-three/drei": "^9.96.0",
+        "@react-three/fiber": "^8.15.0",
+        "@remotion/cli": "^4.0.414",
+        "@remotion/shapes": "^4.0.0",
+        "@remotion/three": "^4.0.0",
+        "@types/react": "^18.0.0",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
+        "remotion": "^4.0.0",
+        "three": "^0.160.0"
+    },
+    "devDependencies": {
+        "@types/web": "^0.0.125",
+        "eslint": "^8.0.0",
+        "prettier": "^3.0.0",
+        "typescript": "^5.3.0"
+    }
+}
